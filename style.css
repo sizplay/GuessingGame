@@ -7,43 +7,10 @@ ul {
     padding: 0;
 }
 
-body {
-    background-image: url("matrix_code-wallpaper-1920x1080.jpg");
-    background-color: #cccccc;
-}
-
 img {
     display: inline;
     width: 200px;
     height: 100px;
-}
-
-div.fullStack {
-    position:relative;
-    width:20px;
-    height:30px;
-}
-
-div.graceHopper {
-    position:relative;
-    left: 800px;
-    width: 100%;
-    height: 10px;
-}
-
-#guess-list {
-    color: white;
-    padding: 40px 30px;
-    text-decoration: none;
-}
-
-#input-parent {
-    width: 160px;
-    margin: 0 auto 0 auto;
-}
-
-#headers {
-    color:white;
 }
 
 #footer {
@@ -53,3 +20,44 @@ div.graceHopper {
     position: fixed;
     bottom: 0;
 }
+
+.guess {
+    display: inline;
+    font-size: 60px;
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 0 25px;
+    background-color: white;
+}
+
+#player-input {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    font-size: 60px;
+}
+
+#submit {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+}
+
+#input-parent {
+    width: 160px;
+    margin: 5% auto 50px;
+    position: relative;
+}
+
+#headers {
+    color: white;
+}
+
+body {
+    background-image: url("matrix_code-wallpaper-1920x1080.jpg");
+}
+
+
